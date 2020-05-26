@@ -1,4 +1,4 @@
-# CS50x Projects
+# CS50x Project
 ## Games (Lua): Mario
 
 ![CS50x Mario](Mario/images/CS50x-Mario.gif)
