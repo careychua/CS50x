@@ -25,33 +25,32 @@
 17-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="app.notes.NoteActivity" />
-21-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:12:9-59
-21-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:12:19-47
-22        <activity android:name="app.notes.MainActivity" >
-22-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:13:9-19:20
-22-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:13:19-47
-23            <intent-filter>
-23-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:15:17-69
-24-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:17:17-77
-26-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <service
-30-->[androidx.room:room-runtime:2.1.0] /Users/careychua/.gradle/caches/transforms-2/files-2.1/5bdc2e1b2a8fe92537150f69c0b00829/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
-31            android:name="androidx.room.MultiInstanceInvalidationService"
-31-->[androidx.room:room-runtime:2.1.0] /Users/careychua/.gradle/caches/transforms-2/files-2.1/5bdc2e1b2a8fe92537150f69c0b00829/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
-32            android:exported="false" />
-32-->[androidx.room:room-runtime:2.1.0] /Users/careychua/.gradle/caches/transforms-2/files-2.1/5bdc2e1b2a8fe92537150f69c0b00829/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
-33    </application>
-34
-35</manifest>
+19        android:theme="@style/AppTheme" >
+19-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="app.notes.NoteActivity" />
+20-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:12:9-59
+20-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:12:19-47
+21        <activity android:name="app.notes.MainActivity" >
+21-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:13:9-19:20
+21-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:13:19-47
+22            <intent-filter>
+22-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:15:17-69
+23-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:17:17-77
+25-->/Users/careychua/Carey/Learn/Programming/CS50x/Notes/app/src/main/AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <service
+29-->[androidx.room:room-runtime:2.1.0] /Users/careychua/.gradle/caches/transforms-2/files-2.1/5bdc2e1b2a8fe92537150f69c0b00829/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+30            android:name="androidx.room.MultiInstanceInvalidationService"
+30-->[androidx.room:room-runtime:2.1.0] /Users/careychua/.gradle/caches/transforms-2/files-2.1/5bdc2e1b2a8fe92537150f69c0b00829/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+31            android:exported="false" />
+31-->[androidx.room:room-runtime:2.1.0] /Users/careychua/.gradle/caches/transforms-2/files-2.1/5bdc2e1b2a8fe92537150f69c0b00829/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+32    </application>
+33
+34</manifest>
