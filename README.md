@@ -1,10 +1,4 @@
-# CS50x Projects
-## Mobile (Android)
-1. Pokedex
-2. Fiftygram
-3. Notes
+# CS50x Project
+## Mobile (Android): Notes
 
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
-
+![Mobile Android Notes](Notes/images/CS50x-Notes.gif)
