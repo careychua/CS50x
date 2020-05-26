@@ -1,0 +1,1 @@
+/Applications/love.app/Contents/MacOS/love /Users/careychua/Carey/Learn/Programming/CS50x/tracks/games/Mario/mario
