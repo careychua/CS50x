@@ -1,5 +1,5 @@
 # CS50x Projects
-## Mobile (Adroid)
+## Mobile (Android)
 1. Pokedex
 2. Fiftygram
 3. Notes
