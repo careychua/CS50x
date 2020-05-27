@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="intent_pokemon" type="id"/>
+    <item name="intent_position" type="id"/>
+</resources>

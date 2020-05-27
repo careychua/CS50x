@@ -1,10 +1,12 @@
 # CS50x Projects
-## Mobile (Android)
-1. Pokedex
-2. Fiftygram
-3. Notes
+## Mobile (Android): Pokedex
 
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+![Mobile Android Pokedex](README/CS50x-Pokedex.gif)
 
+
+## Project Requirements
+1. Search the Pokédex for Pokémon.
+2. Catch and Release Pokémon.
+3. Save last state
+4. View sprite of Pokémon.
+5. Description of Pokémon.
