@@ -1,0 +1,733 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("images/bg-img.jpg");
+    background-size: cover;
+    color: white;
+}
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+h1
+{
+    font-size:2.75rem; /*1rem = 16px*/
+    color: #ebebeb;
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      h1 {font-size:3rem;} /*1rem = 16px*/
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      h1 {font-size:5rem;} /*1rem = 16px*/
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      h1 {font-size:8rem;} /*1rem = 16px*/
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      h1 {font-size:8rem;} /*1rem = 16px*/
+    }
+
+footer
+{
+    text-align: left;
+}
+
+ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li
+{
+    padding-left: 0px;
+    line-height: 22px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.li-next
+{
+    background:url("icons/bullet-right.png") no-repeat 0px 2px;
+    padding-left: 30px;
+}
+
+.li-back
+{
+    background:url("icons/bullet-back.png") no-repeat 0px 2px;
+    padding-left: 30px;
+}
+
+.nav-pills>li>a
+{
+    border-top: 1px solid #00817c;
+    border-bottom: 1px solid #00817c;
+    border-left: 1px solid #00817c;
+    border-right: 1px solid #00817c;
+    background-color: #cff3f1;
+}
+
+.pills-hover>a:hover
+{
+	background-color: #489995;
+	color: white;
+}
+
+.heading
+{
+    text-shadow: 5px 4px black;
+    padding-bottom: 5%;
+}
+
+.img-adj
+{
+  width: 100%;
+  height: 600px;
+  object-fit: cover
+}
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.content
+{
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .content
+        {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .content
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .content
+        {
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .content
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+.content>p
+{
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.foot-info
+{
+  padding-top: 5%;
+}
+
+.foot-creds
+{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+.pad-tb-s
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pad-tb-m
+{
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+/*-----------------------*/
+/* Added for aboutme.html*/
+/*-----------------------*/
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.img-adj-aboutme
+{
+  width: 100%;
+  height: 1000px;
+  object-fit: cover
+}
+
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .img-adj-aboutme
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .img-adj-aboutme
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .img-adj-aboutme
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .img-adj-aboutme
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.loc-map
+{
+    width: 80%;
+    height: 300px;
+}
+
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .loc-map
+      {
+          width: 80%;
+          height: 450px;
+
+      }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .loc-map
+      {
+          width: 80%;
+          height: 450px;
+
+      }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .loc-map
+      {
+          width: 80%;
+          height: 450px;
+
+      }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .loc-map
+      {
+          width: 80%;
+          height: 450px;
+
+      }
+    }
+
+.gif-nodisplay
+{
+    display: none;
+}
+
+.gif-display
+{
+    display: inline;
+}
+
+/*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.gif-size
+{
+    width: 80%;
+    height: 250px;
+}
+
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .gif-size
+      {
+          width: 60%;
+          height: 400px;
+      }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .loc-map
+      {
+          width: 60%;
+          height: 400px;
+
+      }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .loc-map
+      {
+          width: 60%;
+          height: 400px;
+
+      }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .loc-map
+      {
+          width: 60%;
+          height: 400px;
+
+      }
+    }
+
+/*-----------------------*/
+/* Added for work.html*/
+/*-----------------------*/
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.img-adj-work
+{
+  width: 100%;
+  height: 2600px;
+  object-fit: cover
+}
+
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .img-adj-work
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .img-adj-work
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .img-adj-work
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .img-adj-work
+      {
+        width: 100%;
+        height: 1500px;
+        object-fit: cover
+      }
+    }
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.content-work
+{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .content-work
+        {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .content-work
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .content-work
+        {
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .content-work
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.content-work>p
+{
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .content-work>p
+        {
+          background-color: black;
+          padding-top: 1%;
+          padding-bottom: 1%;
+          padding-left: 30%;
+          padding-right: 30%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .content-work>p
+        {
+            background-color: black;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .content-work>p
+        {
+            background-color: black;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .content-work>p
+        {
+            background-color: black;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+.thumb
+{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 120px; /* Set a small width */
+    height: 120px;
+}
+
+.thumb-creds
+{
+    font-size: 8px;
+}
+
+/*-----------------------*/
+/* Added for interests.html*/
+/*-----------------------*/
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.content-interests
+{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .content-interests
+        {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .content-interests
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .content-interests
+        {
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .content-interests
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.content-interests>p
+{
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .content-interests>p
+        {
+          background-color: black;
+          padding-top: 1%;
+          padding-bottom: 1%;
+          padding-left: 20%;
+          padding-right: 20%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .content-interests>p
+        {
+            background-color: black;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .content-interests>p
+        {
+            background-color: black;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .content-interests>p
+        {
+            background-color: black;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+    }
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.content-interests>p>iframe
+{
+    height: 300px;
+}
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .content-interests>p>iframe
+        {
+          height: 450px;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .content-interests>p>iframe
+        {
+            height: 300px;
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .content-interests>p>iframe
+        {
+            height: 300px;
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .content-interests>p>iframe
+        {
+            height: 300px;
+        }
+    }
+
+.img-globe
+{
+  padding: 10px;
+  line-height: 40px;
+}
+
+.text-globe
+{
+  padding: 5px;
+}
+
+
+    /*
+    Extra small devices (portrait phones, less than 544px)
+    No media query since this is the default in Bootstrap because it is "mobile first"
+    */
+.img-adj-interests
+{
+  width: 100%;
+  height: 1100px;
+  object-fit: cover
+}
+
+    /* Small devices (landscape phones, 544px and up) */
+    @media (min-width: 544px) {
+      .img-adj-interests
+      {
+        width: 100%;
+        height: 1200px;
+        object-fit: cover
+      }
+    }
+
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) {
+      .img-adj-interests
+      {
+        width: 100%;
+        height: 1200px;
+        object-fit: cover
+      }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      .img-adj-interests
+      {
+        width: 100%;
+        height: 1200px;
+        object-fit: cover
+      }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      .img-adj-interests
+      {
+        width: 100%;
+        height: 1200px;
+        object-fit: cover
+      }
+    }

@@ -1,22 +1,25 @@
-# CS50x Projects
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+# CS50x Project
+## Web (HTML, CSS, JavaScript): Homepage
+
+![Homepage Index](README/Homepage%20Introduction.jpg)
+
+![Homepage About](README/Homepage%20About%20Me.jpg)
+
+![Homepage Work](README/Homepage%20Work%20Experience.jpg)
+
+![Homepage Interests](README/Homepage%20Interests.jpg)
 
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
+## Project Requirements
+1. Contain at least four different ```.html``` pages, at least one of which is ```index.html``` (the main page of your website), and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
 
+2. Use at least ten (10) distinct HTML tags besides ```<html>```, ```<head>```, ```<body>```, and ```<title>```.
 
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
+3. Integrate one or more features from Bootstrap.
 
+4. Have at least one stylesheet file of your own creation, ```styles.css```, which uses at least five (5) different CSS selectors and within use a total of at least five (5) different CSS properties.
 
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+5. Integrate one or more features of JavaScript into your site to make your site more interactive.
 
+6. Ensure that your site looks nice on browsers both on mobile devices as well as laptops and desktops.
+   
