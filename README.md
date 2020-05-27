@@ -1,26 +1,34 @@
-# CS50x Projects
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
-
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+# CS50x Project
+## SQL: Houses
 
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
+## Project Requirements
+In ```import.py```, write a program that imports data from a CSV spreadsheet.
+1. The program should accept the name of a CSV file as a command-line argument. 
+
+2. If the incorrect number of command-line arguments are provided, your program should print an error and exit.
+
+3. Assume that the CSV file will exist, and will have columns ```name```, ```house```, and ```birth```.
+
+4. For each student in the CSV file, insert the student into the ```students``` table in the ```students.db``` database.
+
+5. While the CSV file provided to you has just a ```name``` column, the database has separate columns for ```first```, ```middle```, and ```last``` names.
+
+6. Assume that each person’s name field will contain either two space-separated names (a first and last name) or three space-separated names (a first, middle, and last name). 
+
+7. For students without a middle name, you should leave their ```middle``` name field as ```NULL``` in the table.
 
 
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
+In ```roster.py```, write a program that prints a list of students for a given house in alphabetical order.
+1. The program should accept the name of a house as a command-line argument. 
 
+2. If the incorrect number of command-line arguments are provided, your program should print an error and exit.
 
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+3. The program should query the ```students``` table in the ```students.db``` database for all of the students in the specified house.
+
+4. The program should print out each student’s full name and birth year (formatted as, e.g., ```Harry James Potter, born 1980``` or ```Luna Lovegood, born 1981```). 
+
+5. Each student should be printed on their own line.
+
+6. Students should be ordered by last name. For students with the same last name, they should be ordered by first name.
 
