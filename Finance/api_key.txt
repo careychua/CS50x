@@ -1,0 +1,2 @@
+IEX:
+export API_KEY=pk_e9e460c6f33e4b82924c84ac369be39c
