@@ -3,7 +3,7 @@
 
 
 ## Project Requirements
-Web application to manage portfolio of stocks\
+Web application to manage portfolio of stocks
 
 
 **Register**\
