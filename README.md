@@ -1,17 +1,12 @@
-# CS50x Projects
-## Mobile (iOS)
-1. [Pokedex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
+# CS50x Project
+## Mobile (iOS): Pokedéx
+
+![Mobile iOS Pokedéx](README/CS50x-Pokedex.gif)
 
 
-## Mobile (Android)
-1. [Pokedex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
-
+## Project Requirements
+1. Search the Pokédex for Pokémon.
+2. Catch and Release Pokémon.
+3. Save last state.
+4. View sprite of Pokémon.
+5. Description of Pokémon.
