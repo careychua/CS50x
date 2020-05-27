@@ -18,6 +18,7 @@ In ```import.py```, write a program that imports data from a CSV spreadsheet.
 
 7. For students without a middle name, you should leave their ```middle``` name field as ```NULL``` in the table.
 
+---
 
 In ```roster.py```, write a program that prints a list of students for a given house in alphabetical order.
 1. The program should accept the name of a house as a command-line argument. 
@@ -32,3 +33,4 @@ In ```roster.py```, write a program that prints a list of students for a given h
 
 6. Students should be ordered by last name. For students with the same last name, they should be ordered by first name.
 
+---
