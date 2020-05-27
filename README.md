@@ -1,7 +1,7 @@
 # CS50x Projects
-## Mobile (Android): Pokémon
+## Mobile (Android): Pokédex
 
-![Mobile Android Pokémon](README/CS50x-Pokedex.gif)
+![Mobile Android Pokédex](README/CS50x-Pokedex.gif)
 
 
 ## Project Requirements
