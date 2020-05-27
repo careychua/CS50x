@@ -1,5 +1,5 @@
 # CS50x Projects
-## Web (Flask, SQLite)
+## Web (Flask, SQLite3)
 1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
 2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
 
