@@ -1,8 +1,6 @@
 # CS50x Projects
 ## Web (Flask, SQLite3): Finance
 
-![Web Finance]
-
 
 ## Project Requirements
 Web application to manage portfolio of stocks
