@@ -1,4 +1,4 @@
-# CS50x Projects
+# CS50x Project
 ## Web (Flask, SQLite3): Finance
 
 
