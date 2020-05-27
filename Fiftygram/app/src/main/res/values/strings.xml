@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fiftygram</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="save_photo">Save Photo</string>
+    <string name="sepia_filter">Sepia</string>
+    <string name="toon_filter">Toon</string>
+    <string name="sketch_filter">Sketch</string>
+    <string name="blur_round_corner_filter">Blur &amp; Corners</string>
+</resources>
