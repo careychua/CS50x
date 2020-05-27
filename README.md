@@ -6,7 +6,7 @@
 Web application to manage portfolio of stocks
 
 
-**Register**\
+### Register
 Allows a user to register for an account via a form.
   ![Finance Register](README/Finance%20Register.png)
 1. Require that a user input a username, implemented as a text field whose ```name``` is ```username```. Render an apology if the user’s input is blank or the username already exists.
@@ -17,14 +17,14 @@ Allows a user to register for an account via a form.
    
 4. ```INSERT``` the new user into ```users```, storing a hash of the user’s password, not the password itself. Hash the user’s password with ```generate_password_hash```.
    
-**Quote**\
+### Quote
 Allows a user to look up a stock’s current price.
   ![Finance Quote](README/Finance%20Quote.png)
 1. Require that a user input a stock’s symbol, implemented as a text field whose ```name``` is ```symbol```.
 
 2. Submit the user’s input via ```POST``` to ```/quote```.
 
-**Buy**\
+### Buy
   Enables a user to buy stocks.
   ![Finance Buy](README/Finance%20Buy.png)
 1. Require that a user input a stock’s symbol, implemented as a text field whose ```name``` is ```symbol```. Render an apology if the input is blank or the symbol does not exist (as per the return value of ``lookup``).
@@ -34,7 +34,7 @@ Allows a user to look up a stock’s current price.
 3. Submit the user’s input via ```POST``` to ```/buy```.
 4. Render an apology, without completing a purchase, if the user cannot afford the number of shares at the current price.
 
-**Index**\
+### Index
   Displays a HTML table summary for the user currently logged in.
   ![Finance Index](README/Finance%20Portfolio.png)
 1. Stocks the user owns 
@@ -43,7 +43,7 @@ Allows a user to look up a stock’s current price.
 4. The total value of each holding
 5. The user’s current cash balance along with a grand total
 
-**Sell**\
+### Sell
   Enables a user to sell shares of a stock owned.
   ![Finance Sell](README/Finance%20Sell.png)
 1. Require that a user input a stock’s symbol, implemented as a ```select``` menu whose ```name``` is ```symbol```. Render an apology if the user fails to select a stock or if (somehow, once submitted) the user does not own any shares of that stock.
@@ -52,12 +52,12 @@ Allows a user to look up a stock’s current price.
 
 3. Submit the user’s input via ```POST``` to ```/sell```.
 
-**History**\
+### History
   Displays a HTML table summarizing all of a user’s transactions.
   ![Finance History](README/Finance%20History.png)
 1. For each row, make clear whether a stock was bought or sold and include the stock’s symbol, the (purchase or sale) price, the number of shares bought or sold, and the date and time at which the transaction occurred.
    
-**Additional Features**
+### Additional Features
 1. Log in page
     ![Finance Log In](README/Finance%20Log%20In.png)
 2. Allow users to change their passwords.
