@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block table %}
+    <thead>
+        <th scope="col">Symbol</th>
+        <th scope="col">Name</th>
+        <th scope="col"></th>
+        <th scope="col">Shares</th>
+        <th scope="col">Price</th>
+        <th scope="col">Total</th>
+    </thead>
+    </tbody>
+        {% set total_arr = ["%.2f"|format(cash)|float] %}
+        {% if transactions is defined and transactions %}
+            {% for row in transactions %}
+                {% if row["shares"] != 0 %}
+                    {% set symbol = row["symbol"] %}
+                    {% set shares = row["shares"] %}
+                    {% set price = lookup(row["symbol"])["price"]|float %}
+                    {% set share_total = shares * price %}
+                    {% if total_arr.append(share_total|float) %}{% endif %}
+                    <tr scope="row">
+                        <td>{{ symbol.upper() }}</td>
+                        <td>{{ row["symbolname"] }}</td>
+                        <td>
+                            <form>
+                                <button class="btn btn-primary btn-sm" type="submit" formaction="/buy" name="index_operation" value="{{ symbol }}">Buy</button>
+                                <button class="btn btn-primary btn-sm" type="submit" formaction="/sell" name="index_operation" value="{{ symbol }}">Sell</button>
+                            </form>
+                        </td>
+                        <td>{{ shares }}</td>
+                        <td>{{ price|usd }}</td>
+                        <td>{{ share_total|usd }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        <tr scope="row">
+            <td>CASH</td>
+            <td colspan="4"></td>
+            <td>{{ cash|usd }}</td>
+        </tr>
+        <tr class="bg-white">
+            <td colspan="5">
+            <td class="font-weight-bold">{{ (total_arr|sum)|usd }}</td>
+        </tr>
+    </tbody>
+{% endblock %}

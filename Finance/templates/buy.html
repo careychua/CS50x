@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block main %}
+    <form action="/buy" method="post">
+        <div class="form-group">
+            <input autocomplete="off" class="form-control" name="symbol" placeholder="Symbol" type="text" value="{{ default_share.upper() }}" required>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" class="form-control" name="shares" placeholder="Number of shares" min="0" type="number" required>
+        </div>
+        <button class="btn btn-primary" type="submit">{{ title }}</button>
+    </form>
+{% endblock %}

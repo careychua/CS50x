@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block main %}
+<table class="table table-striped text-left" data-toggle="table" data-sortable="true">
+    <thead>
+        <th scope="col" data-sortable="true">Symbol</th>
+        <th scope="col" data-sortable="true">Shares</th>
+        <th scope="col" data-sortable="true">Price</th>
+        <th scope="col" data-sortable="true">Transacted</th>
+    </thead>
+    <tbody>
+        {% if transactions is defined and transactions %}
+            {% for row in transactions %}
+                <tr scope="row">
+                    <td>{{ row["symbol"].upper() }}</td>
+                    <td>{{ row["shares"] }}</td>
+                    <td>{{ row["price"]|usd }}</td>
+                    <td>{{ row["timestamp"] }}</td>
+                </tr>
+            {% endfor %}
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}

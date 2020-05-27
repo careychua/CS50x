@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block main %}
+    {% if quote is defined and quote %}
+        A share of {{ quote["name"] }} ({{ quote["symbol"] }}) costs {{ quote["price"]|usd }}.
+    {% else %}
+        Please enter a valid symbol.
+    {% endif %}
+{% endblock %}

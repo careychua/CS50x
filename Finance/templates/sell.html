@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <div class="form-group">
+            <select name="symbol" class="form-control" required>
+                <option value="" disabled selected>Symbol</option>
+                {% for row in symbols %}
+                    {% set share_selected = "" %}
+                    {% if row["symbol"] == default_share %}
+                        {% set share_selected = "selected" %}
+                    {% endif %}
+                    <option value="{{ row["symbol"] }}" {{ share_selected }}>{{ row["symbol"].upper() }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" class="form-control" name="shares" placeholder="Shares" type="number" min="0" required>
+        </div>
+        <button class="btn btn-primary" type="submit">{{ title }}</button>
+    </form>
+{% endblock %}
