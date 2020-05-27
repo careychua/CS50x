@@ -1,4 +1,8 @@
 # CS50x Projects
+## SQL
+1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
+2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
+
 ## Web
 1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
 2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
