@@ -1,5 +1,5 @@
 # CS50x Project
-## C Language: Speller
+## C Language: Speller(Hash)
 Implement a program that spell-checks a file, a la the below, using a hash table.
 
 ## Project Requirements
