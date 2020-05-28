@@ -1,44 +1,11 @@
-# CS50x Projects
-## Python
-1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-2. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-3. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-4. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-5. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-6. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+# CS50x Project
+## Python: Readability
 
----
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
-
----
-
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
-
----
-
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
-
----
-
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
----
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+## Project Requirements
+1. The program that asks the user to type in some text, and then outputs the grade level for the text, according to the Coleman-Liau formula.
+2. The program should count the number of letters, words, and sentences in the text. You may assume that a letter is any lowercase character from ```a``` to ```z``` or any uppercase character from ```A``` to ```Z```, any sequence of characters separated by spaces should count as a word, and that any occurrence of a period, exclamation point, or question mark indicates the end of a sentence.
+3. The program should print as output "Grade X" where X is the grade level computed by the Coleman-Liau formula, rounded to the nearest integer.
+4. If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), your program should output ```Grade 16+``` instead of giving the exact index number. If the index number is less than 1, your program should output ```Before Grade 1```.
 
 ---
