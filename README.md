@@ -7,7 +7,6 @@ Implement a website via which users can “buy” and “sell” stocks.
 ## [Project Requirements](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 Web application to manage portfolio of stocks
 
----
 ### Register
 Allows a user to register for an account via a form.
   ![Finance Register](README/Finance%20Register.png)
