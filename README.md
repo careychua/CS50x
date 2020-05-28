@@ -1,4 +1,9 @@
 # CS50x Projects
+## C Language
+1. [Speller](https://github.com/careychua/CS50x/tree/clang/speller)
+
+---
+
 ## Python
 1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
 2. Mario
