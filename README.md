@@ -2,7 +2,7 @@
 ## Web (Flask, SQLite3): Finance
 
 
-## Project Requirements
+## [Project Requirements](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 Web application to manage portfolio of stocks
 
 ---
