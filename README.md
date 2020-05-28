@@ -1,10 +1,13 @@
 # CS50x Projects
 ## C Language
-1. Filter
+1. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
+2. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
+3. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
+4. Filter
    * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
    * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-2. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-3. Speller
+5. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
+6. Speller
    * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
    * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
 
