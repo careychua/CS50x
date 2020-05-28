@@ -5,7 +5,7 @@
 ## Project Requirements
 Web application to manage portfolio of stocks
 
-
+---
 ### Register
 Allows a user to register for an account via a form.
   ![Finance Register](README/Finance%20Register.png)
@@ -16,7 +16,8 @@ Allows a user to register for an account via a form.
 3. Submit the user’s input via ```POST``` to ```/register```.
    
 4. ```INSERT``` the new user into ```users```, storing a hash of the user’s password, not the password itself. Hash the user’s password with ```generate_password_hash```.
-   
+
+---
 ### Quote
 Allows a user to look up a stock’s current price.
   ![Finance Quote](README/Finance%20Quote.png)
@@ -24,6 +25,7 @@ Allows a user to look up a stock’s current price.
 
 2. Submit the user’s input via ```POST``` to ```/quote```.
 
+---
 ### Buy
   Enables a user to buy stocks.
   ![Finance Buy](README/Finance%20Buy.png)
@@ -34,6 +36,7 @@ Allows a user to look up a stock’s current price.
 3. Submit the user’s input via ```POST``` to ```/buy```.
 4. Render an apology, without completing a purchase, if the user cannot afford the number of shares at the current price.
 
+---
 ### Index
   Displays a HTML table summary for the user currently logged in.
   ![Finance Index](README/Finance%20Portfolio.png)
@@ -43,6 +46,7 @@ Allows a user to look up a stock’s current price.
 4. The total value of each holding
 5. The user’s current cash balance along with a grand total
 
+---
 ### Sell
   Enables a user to sell shares of a stock owned.
   ![Finance Sell](README/Finance%20Sell.png)
@@ -52,11 +56,13 @@ Allows a user to look up a stock’s current price.
 
 3. Submit the user’s input via ```POST``` to ```/sell```.
 
+---
 ### History
   Displays a HTML table summarizing all of a user’s transactions.
   ![Finance History](README/Finance%20History.png)
 1. For each row, make clear whether a stock was bought or sold and include the stock’s symbol, the (purchase or sale) price, the number of shares bought or sold, and the date and time at which the transaction occurred.
-   
+
+---
 ### Additional Features
 1. Log in page
     ![Finance Log In](README/Finance%20Log%20In.png)
@@ -67,5 +73,4 @@ Allows a user to look up a stock’s current price.
 4. Allow users to buy more shares or sell shares of stocks they already own via index itself, without having to type stocks’ symbols manually.
 5. Require users’ passwords to have some number of letters, numbers, and/or symbols.
    
-
-
+---
