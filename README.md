@@ -2,7 +2,9 @@
 ## C Language: Speller(Hash)
 Implement a program that spell-checks a file, using a hash table.
 
-## Project Requirements
+---
+
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/5/speller/)
 1. Implementation of ```check``` must be case-insensitive.
 
 2. Implementation of check should only return true for words actually in dictionary.
