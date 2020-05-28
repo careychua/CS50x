@@ -16,6 +16,6 @@ Implement a program that resizes BMPs.
 
 3. If the program is not executed with arguments, it should remind the user of correct usage, and ```main``` should return ```1```.
 
-4. The program, if it uses malloc, must not leak any memory
+4. The program, if it uses ```malloc```, must not leak any memory
 
 ---
