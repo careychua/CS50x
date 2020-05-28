@@ -1,5 +1,8 @@
 # CS50x Project
 ## Web (HTML, CSS, JavaScript): Homepage
+Build a simple homepage using HTML, CSS, and JavaScript.
+
+---
 
 ![Homepage Index](README/Homepage%20Introduction.jpg)
 
