@@ -1,5 +1,6 @@
 # CS50x Project
 ## Python: Mario(Less)
+Implement a program that prints out a half-pyramid of a specified height.
 
 ---
 
