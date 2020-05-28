@@ -9,8 +9,9 @@
 
 ![Homepage Interests](README/Homepage%20Interests.jpg)
 
+---
 
-## Project Requirements
+## [Project Requirements](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
 1. Contain at least four different ```.html``` pages, at least one of which is ```index.html``` (the main page of your website), and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
 
 2. Use at least ten (10) distinct HTML tags besides ```<html>```, ```<head>```, ```<body>```, and ```<title>```.
