@@ -1,6 +1,8 @@
 # CS50x Projects
 ## C Language
-1. [Speller](https://github.com/careychua/CS50x/tree/clang/speller)
+1. Speller
+   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
+   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
 
 ---
 
