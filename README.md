@@ -1,5 +1,6 @@
 # CS50x Project
 ## SQL: Movies
+Write SQL queries to answer questions about a database of movies.
 
 ---
 
