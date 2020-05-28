@@ -1,6 +1,8 @@
 # CS50x Project
 ## Web (Flask, SQLite3): Finance
+Implement a website via which users can “buy” and “sell” stocks.
 
+---
 
 ## [Project Requirements](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 Web application to manage portfolio of stocks
