@@ -1,8 +1,9 @@
 # CS50x Project
 ## SQL: Movies
 
+---
 
-## Project Requirements
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/7/movies/)
 In ```1.sql```, write a SQL query to list the titles of all movies released in 2008.
 * The query should output a table with a single column for the title of each movie.
 
