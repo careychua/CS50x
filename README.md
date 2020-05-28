@@ -1,58 +1,24 @@
-# CS50x Projects
-## C Language
-1. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
-2. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
-3. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
-4. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-5. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-6. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+# CS50x Project
+## C Language: Plurality
+Implement a program that runs a plurality election.
 
 ---
 
-## Python
-1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-2. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-3. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-4. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-5. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-6. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+## [Project Reequirements](https://cs50.harvard.edu/x/2020/psets/3/plurality/)
+1. Complete the implementation such that the program simulates a plurality vote election.
 
----
+2. Complete the ```vote``` function.
+   * ```vote``` takes a single argument, a ```string``` called ```name```, representing the name of the candidate who was voted for.
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
+   * If ``name`` matches one of the names of the candidates in the election, then update that candidate’s vote total to account for the new vote. The ```vote``` function in this case should return ```true``` to indicate a successful ballot.
 
----
+   * If ```name``` does not match the name of any of the candidates in the election, no vote totals should change, and the ```vote``` function should return ```false``` to indicate an invalid ballot.
 
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+   * Assume that no two candidates will have the same name.
 
----
+3. Complete the ```print_winner``` function.
+   * The function should print out the name of the candidate who received the most votes in the election, and then print a newline.
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
-
----
-
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
----
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+   * It is possible that the election could end in a tie if multiple candidates each have the maximum number of votes. In that case, you should output the names of each of the winning candidates, each on a separate line.
 
 ---
