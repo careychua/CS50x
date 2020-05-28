@@ -1,65 +1,26 @@
-# CS50x Projects
-## C Language
-1. Resize
-   * [Less](https://github.com/careychua/CS50x/tree/clang/resize/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/resize/more)
-2. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
-3. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
-4. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
-5. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-6. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-7. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+# CS50x Project
+## Python: Caesar
+Implement a program that encrypts messages using Caesar’s cipher.
 
 ---
 
-## Python
-1. [Caesar](https://github.com/careychua/CS50x/tree/python/caesar)
-2. [Crack](https://github.com/careychua/CS50x/tree/python/crack)
-3. [Vigenere](https://github.com/careychua/CS50x/tree/python/vigenere)
-4. [Bleep](https://github.com/careychua/CS50x/tree/python/bleep)
-5. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-6. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-7. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-8. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-9. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-10. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+## [Project Requirements](https://docs.cs50.net/2019/x/psets/6/sentimental/caesar/caesar.html)
+1. Design and implement a program that encrypts messages using Caesar’s cipher.
 
----
+2. The program must accept a single command-line argument, a non-negative integer, ```k```.
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
+3. If the program is executed without any command-line arguments or with more than one command-line argument, your program should print an error message and exit immediately with a status code of 1.
 
----
+4. Assume that, if a user does provide a command-line argument, it will be a non-negative integer.
 
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+5. Do not assume that ```k``` will be less than or equal to 26. The program should work for all non-negative integral values of ```k``` less than 2<sup>31</sup> - 26. The alphabetical characters in your program’s input should remain alphabetical characters in your program’s output.
 
----
+6. The program must output ```plaintext:``` (without a newline) and then prompt the user for a ```string``` of plaintext.
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
+7. The program must output ```ciphertext:``` (without a newline) followed by the plaintext’s corresponding ciphertext, with each alphabetical character in the plaintext "rotated" by k positions; non-alphabetical characters should be outputted unchanged.
 
----
+8. The program must preserve case: capitalized letters, though rotated, must remain capitalized letters; lowercase letters, though rotated, must remain lowercase letters.
 
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
----
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+9.  After outputting ciphertext, it should print a newline.
 
 ---
