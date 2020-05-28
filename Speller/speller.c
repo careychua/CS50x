@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     // Check for correct number of args
     if (argc != 2 && argc != 3)
     {
-        printf("Usage: speller [dictionary] text\n");
+        printf("Usage: ./speller [dictionary] text\n");
         return 1;
     }
 
