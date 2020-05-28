@@ -1,7 +1,9 @@
 # CS50x Project
 ## Python: Mario(Less)
 
-## Project Requirements
+---
+
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/6/mario/less/)
 1. The program recreates the half-pyramid using hashes (#) for blocks.
 
 2. Prompt the user for the half-pyramid’s height, a positive integer between ```1``` and ```8```.
