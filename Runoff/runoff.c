@@ -38,7 +38,7 @@ int main(int argc, string argv[])
     // Check for invalid usage
     if (argc < 2)
     {
-        printf("Usage: runoff [candidate ...]\n");
+        printf("Usage: ./runoff [candidate ...]\n");
         return 1;
     }
 
