@@ -1,8 +1,9 @@
 # CS50x Project
 ## Python: Readability
 
+---
 
-## Project Requirements
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/6/readability/)
 1. The program that asks the user to type in some text, and then outputs the grade level for the text, according to the Coleman-Liau formula.
 
 2. The program should count the number of letters, words, and sentences in the text. You may assume that a letter is any lowercase character from ```a``` to ```z``` or any uppercase character from ```A``` to ```Z```, any sequence of characters separated by spaces should count as a word, and that any occurrence of a period, exclamation point, or question mark indicates the end of a sentence.
