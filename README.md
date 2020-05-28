@@ -1,65 +1,22 @@
-# CS50x Projects
-## C Language
-1. Resize
-   * [Less](https://github.com/careychua/CS50x/tree/clang/resize/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/resize/more)
-2. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
-3. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
-4. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
-5. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-6. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-7. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+# CS50x Project
+## Python: Vigenere
+Implement a program that encrypts messages using Vigenère’s cipher.
 
 ---
 
-## Python
-1. [Caesar](https://github.com/careychua/CS50x/tree/python/caesar)
-2. [Crack](https://github.com/careychua/CS50x/tree/python/crack)
-3. [Vigenere](https://github.com/careychua/CS50x/tree/python/vigenere)
-4. [Bleep](https://github.com/careychua/CS50x/tree/python/bleep)
-5. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-6. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-7. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-8. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-9. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-10. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+## [Project Requirements](https://docs.cs50.net/2019/x/psets/6/sentimental/vigenere/vigenere.html)
+1. Design and implement a program that encrypts messages using Vigenère’s cipher.
 
----
+2. The program must accept a single command-line argument: a keyword, ```k```, composed entirely of alphabetical characters.
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
+3. If the program is executed without any command-line arguments, with more than one command-line argument, or with one command-line argument that contains any non-alphabetical character, the program should print an error and exit immediately with a status code of 1.
 
----
+4. The program proceed to prompt the user for a string of plaintext, ```p```, (as by a prompt for ```plaintext:```) which it must then encrypt according to Vigenère’s cipher with ```k```, print the result (prepended with ```ciphertext:``` and ending with a newline) and exiting.
 
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+5. With respect to the characters in ```k```, you must treat ```A``` and ```a``` as 0, ```B``` and ```b``` as 1, …​ , and ```Z``` and ```z``` as 25.
 
----
+6. The program must only apply Vigenère’s cipher to a character in ```p``` if that character is a letter. All other characters must be outputted unchanged. If your code is about to apply the *j*th character of ```k``` to the *i*th character of ```p```, but the latter proves to be a non-alphabetical character, you must wait to apply that *j*th character of ```k``` to the next alphabetical character in ```p```; you must not yet advance to the next character in ```k```.
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
-
----
-
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
----
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+7. The program must preserve the case of each letter in ```p```.
 
 ---
