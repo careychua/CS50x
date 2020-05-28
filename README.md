@@ -1,4 +1,16 @@
 # CS50x Projects
+## Python
+1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
+2. Mario
+    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
+    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
+3. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
+4. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
+5. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
+6. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+
+---
+
 ## SQL
 1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
 2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
