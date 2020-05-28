@@ -1,8 +1,9 @@
 # CS50x Project
 ## SQL: Houses
 
+---
 
-## Project Requirements
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/7/houses/)
 In ```import.py```, write a program that imports data from a CSV spreadsheet.
 1. The program should accept the name of a CSV file as a command-line argument. 
 
