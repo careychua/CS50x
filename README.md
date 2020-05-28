@@ -1,65 +1,26 @@
-# CS50x Projects
-## C Language
-1. Resize
-   * [Less](https://github.com/careychua/CS50x/tree/clang/resize/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/resize/more)
-2. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
-3. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
-4. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
-5. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-6. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-7. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+# CS50x Project
+## Python: Bleep
+Implement a program that censors messages that contain words that appear on a list of supplied "banned words."
 
 ---
 
-## Python
-1. [Caesar](https://github.com/careychua/CS50x/tree/python/caesar)
-2. [Crack](https://github.com/careychua/CS50x/tree/python/crack)
-3. [Vigenere](https://github.com/careychua/CS50x/tree/python/vigenere)
-4. [Bleep](https://github.com/careychua/CS50x/tree/python/bleep)
-5. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-6. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-7. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-8. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-9. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-10. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+## [Project Requirements](https://docs.cs50.net/2019/x/psets/6/bleep/bleep.html)
+1. Accepts as its sole command-line argument the name (or path) of a dictionary of banned words.
 
----
+2. Opens and reads from that file the list of words stored, one per line, and stores each in a Python data structure for later access.
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
+3. If no command line argument is provided, the program will exit with a status code of 1.
 
----
+4. Assume that any text files will have one word per line (each line terminated with a \n), and any alphabetic characters in those words will be lowercase.
 
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+5. Prompts the user to provide a message.
 
----
+6. Tokenizes that message into its individual component words, using the ```split``` method on the provided string, and then iterates over the ```list``` of "tokens" (words) that is returned by calling split, checking to see whether any of the tokens match, case-insensitively, any of the words in the banned words list.
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
+7. Prints back the message that the user provided, except if the message contained any banned words, each of its characters is replaced by a ```*```.
 
----
+8. Should not censor words that merely contain a banned word as a substring.
 
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
----
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+9.  Do not need to support input strings that contain punctuation marks. Assume input is only separated by whitespace.
 
 ---
