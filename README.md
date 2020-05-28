@@ -1,5 +1,6 @@
 # CS50x Project
 ## SQL: Houses
+Implement a program to import student data into a database, and then produce class rosters.
 
 ---
 
