@@ -2,7 +2,9 @@
 ## C Language: Speller(Trie)
 Implement a program that spell-checks a file, using trie.
 
-## Project Requirements
+---
+
+## [Project Requirements](https://docs.cs50.net/2019/ap/problems/speller/trie/speller.html)
 1. Implementation of ```check``` must be case-insensitive.
 
 2. Implementation of check should only return true for words actually in dictionary.
