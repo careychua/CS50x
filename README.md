@@ -10,14 +10,14 @@ Implement a program that runs a runoff election.
 2. Complete the ```vote``` function.
    * The function takes arguments ```voter```, ```rank```, and ```name```. If ```name``` is a match for the name of a valid candidate, then you should update the global preferences array to indicate that the voter ```voter``` has that candidate as their ```rank``` preference.
 
-   * If the preference is successfully recorded, the function should return ```true```; the function should return ```false```.
+   * If the preference is successfully recorded, the function should return ```true```; the function should return ```false``` otherwise.
 
    * Assume that no two candidates will have the same name.
 
 3. Complete the ```tabulate``` function.
    * The function should update the number of ```votes``` each candidate has at this stage in the runoff.
 
-   * Recall that at each stage in the runoff, every voter effectively votes for their top-preferred candidate who has not already been eliminated.
+   * At each stage in the runoff, every voter effectively votes for their top-preferred candidate who has not already been eliminated.
 
 4. Complete the ```print_winner``` function.
    * If any candidate has more than half of the vote, their name should be printed to ```stdout``` and the function should return ```true```.
