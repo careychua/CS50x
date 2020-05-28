@@ -3,6 +3,7 @@
 
 ![Mobile iOS Pokedéx](README/CS50x-Pokedex.gif)
 
+---
 
 ## [Project Requirements](https://cs50.harvard.edu/x/2020/tracks/mobile/ios/pokedex/)
 1. Search the Pokédex for Pokémon.
