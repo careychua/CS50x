@@ -1,6 +1,6 @@
 # CS50x Project
 ## C Language: Speller(Hash)
-Implement a program that spell-checks a file, a la the below, using a hash table.
+Implement a program that spell-checks a file, using a hash table.
 
 ## Project Requirements
 1. Implementation of ```check``` must be case-insensitive.
