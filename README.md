@@ -1,5 +1,6 @@
 # CS50x Project
 ## Python: Readability
+Implement a program that computes the approximate grade level needed to comprehend some text.
 
 ---
 
