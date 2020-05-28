@@ -1,5 +1,6 @@
 # CS50x Project
 ## Python: Hello
+Implement a program that prints out a simple greeting to the user.
 
 ---
 
