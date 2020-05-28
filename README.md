@@ -17,14 +17,18 @@
 ---
 
 ## Python
-1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-2. Mario
+1. [Caesar](https://github.com/careychua/CS50x/tree/python/caesar)
+2. [Crack](https://github.com/careychua/CS50x/tree/python/crack)
+3. [Vigenere](https://github.com/careychua/CS50x/tree/python/vigenere)
+4. [Bleep](https://github.com/careychua/CS50x/tree/python/bleep)
+5. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
+6. Mario
     * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
     * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-3. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-4. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-5. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-6. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+7. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
+8. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
+9. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
+10. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
 
 ---
 
