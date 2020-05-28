@@ -1,55 +1,17 @@
-# CS50x Projects
-## C Language
-1. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-2. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-3. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+# CS50x Project
+## C Language: Filter(Less)
+Implement a program that applies filters to BMPs.
 
 ---
 
-## Python
-1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-2. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-3. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-4. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-5. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-6. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/4/filter/less/)
+1. Implement functions such that a user can apply grayscale, sepia, reflection, or blur filters to their images.
+   * The function ```grayscale``` should take an image and turn it into a black-and-white version of the same image.
+  
+   * The function ```sepia``` should take an image and turn it into a sepia version of the same image.
 
----
+   * The ```reflect``` function should take an image and reflect it horizontally.
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
-
----
-
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
-
----
-
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
-
----
-
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
-
----
-
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+   * The ```blur``` function should take an image and turn it into a box-blurred version of the same image.
 
 ---
