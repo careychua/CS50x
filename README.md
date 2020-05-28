@@ -1,61 +1,41 @@
-# CS50x Projects
-## C Language
-1. Resize
-   * [Less](https://github.com/careychua/CS50x/tree/clang/resize/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/resize/more)
-2. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
-3. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
-4. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
-5. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-6. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-7. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+# CS50x Project
+## C Language: Tideman
+Implement a program that runs a Tideman election.
 
 ---
 
-## Python
-1. [Hello](https://github.com/careychua/CS50x/tree/python/hello)
-2. Mario
-    * [Less](https://github.com/careychua/CS50x/tree/python/mario/less)
-    * [More](https://github.com/careychua/CS50x/tree/python/mario/more)
-3. [Cash](https://github.com/careychua/CS50x/tree/python/cash)
-4. [Credit](https://github.com/careychua/CS50x/tree/python/credit)
-5. [Readability](https://github.com/careychua/CS50x/tree/python/readability)
-6. [DNA](https://github.com/careychua/CS50x/tree/python/dna)
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/3/tideman/)
+1. Complete the implementation such that it simulates a Tideman election.
 
----
+2. Complete the ```vote``` function. 
+   * The function takes arguments ```rank```, ```name```, and ```ranks```. If ```name``` is a match for the name of a valid candidate, then you should update the ```ranks``` array to indicate that the voter has the candidate as their ```rank``` preference.
 
-## SQL
-1. [Movies](https://github.com/careychua/CS50x/tree/sql/movies)
-2. [Houses](https://github.com/careychua/CS50x/tree/sql/houses)
+    * ```ranks[i]``` here represents the user’s ```i```th preference.
 
----
+    * The function should return ```true``` if the rank was successfully recorded, and ```false``` otherwise.
 
-## Web
-1. [Homepage](https://github.com/careychua/CS50x/tree/web/homepage)
-2. [Finance](https://github.com/careychua/CS50x/tree/web/finance)
+    * Assume that no two candidates will have the same name.
 
----
+3. Complete the ```record_preferences``` function. 
+   * The function is called once for each voter, and takes as argument the ```ranks``` array.
 
-## Mobile (iOS)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/ios/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/ios/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/ios/notes)
+   * The function should update the global ```preferences``` array to add the current voter’s preferences.
 
----
+   * Assume that every voter will rank each of the candidates.
 
-## Mobile (Android)
-1. [Pokédex](https://github.com/careychua/CS50x/tree/mobile/android/pokedex)
-2. [Fiftygram](https://github.com/careychua/CS50x/tree/mobile/android/fiftygram)
-3. [Notes](https://github.com/careychua/CS50x/tree/mobile/android/notes)
+4. Complete the ```add_pairs``` function. 
+   * The function should add all pairs of candidates where one candidate is preferred to the ```pairs``` array. A pair of candidates who are tied should not be added to the array.
 
----
+   * The function should update the global variable ```pair_count``` to be the number of pairs of candidates. (The pairs should thus all be stored between ```pairs[0]``` and ```pairs[pair_count - 1]```).
 
-## Games (Lua)
-1. [Pong](https://github.com/careychua/CS50x/tree/games/pong)
-2. [Mario](https://github.com/careychua/CS50x/tree/games/mario)
+5. Complete the ```sort_pairs``` function. 
+   * The function should sort the ```pairs``` array in decreasing order of strength of victory, where strength of victory is defined to be the number of voters who prefer the preferred candidate. If multiple pairs have the same strength of victory, assume that the order does not matter.
+
+6. Complete the ```lock_pairs``` function. 
+   * The function should create the ```locked``` graph, adding all edges in decreasing order of victory strength so long as the edge would not create a cycle.
+
+7. Complete the ```print_winner``` function. 
+   
+   * The function should print out the name of the candidate who is the source of the graph. Assume there will not be more than one source.
 
 ---
