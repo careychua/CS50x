@@ -16,10 +16,10 @@
 10. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
 11. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
 12. Filter
-   * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
-   * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-11. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-12. Speller
+    * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
+    * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
+13. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
+14. Speller
    * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
    * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
 
