@@ -1,16 +1,25 @@
 # CS50x Projects
 ## C Language
-1. Resize
+1. [Hello](https://github.com/careychua/CS50x/tree/clang/hello)
+2. Mario
+   * [Less](https://github.com/careychua/CS50x/tree/clang/mario/less)
+   * [More](https://github.com/careychua/CS50x/tree/clang/mario/more)
+3. [Cash](https://github.com/careychua/CS50x/tree/clang/cash)
+4. [Credit](https://github.com/careychua/CS50x/tree/clang/credit)
+5. [Readability](https://github.com/careychua/CS50x/tree/clang/readability)
+6. [Caesar](https://github.com/careychua/CS50x/tree/clang/caesar)
+7. [Substitution](https://github.com/careychua/CS50x/tree/clang/substitution)
+8. Resize
    * [Less](https://github.com/careychua/CS50x/tree/clang/resize/less)
    * [More](https://github.com/careychua/CS50x/tree/clang/resize/more)
-2. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
-3. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
-4. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
-5. Filter
+9. [Plurality](https://github.com/careychua/CS50x/tree/clang/plurality)
+10. [Runoff](https://github.com/careychua/CS50x/tree/clang/runoff)
+11. [Tideman](https://github.com/careychua/CS50x/tree/clang/tideman)
+12. Filter
    * [Less](https://github.com/careychua/CS50x/tree/clang/filter/less)
    * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
-6. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
-7. Speller
+11. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
+12. Speller
    * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
    * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
 
