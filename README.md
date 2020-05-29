@@ -6,9 +6,13 @@ Implement a program that computes the approximate grade level needed to comprehe
 
 ## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/2/readability/)
 1. Design and implement a program that computes the Coleman-Liau index of the text.
+
 2. The program must prompt the user for a ```string``` of text.
+
 3. The program should count the number of letters, words, and sentences in the text. Assume that a letter is any lowercase character from ```a``` to ```z``` or any uppercase character from ```A``` to ```Z```, any sequence of characters separated by spaces should count as a word, and that any occurrence of a period, exclamation point, or question mark indicates the end of a sentence.
+
 4. The program should print as output ```Grade X``` where ```X``` is the grade level computed by the Coleman-Liau formula, rounded to the nearest integer.
+
 5. If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), your program should output ```Grade 16+``` instead of giving the exact index number. If the index number is less than 1, your program should output ```Before Grade 1```.
 
 ---
