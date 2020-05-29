@@ -4,7 +4,7 @@ Implement a program that runs a plurality election.
 
 ---
 
-## [Project Reequirements](https://cs50.harvard.edu/x/2020/psets/3/plurality/)
+## [Project Requirements](https://cs50.harvard.edu/x/2020/psets/3/plurality/)
 1. Complete the implementation such that the program simulates a plurality vote election.
 
 2. Complete the ```vote``` function.
