@@ -20,8 +20,8 @@
     * [More](https://github.com/careychua/CS50x/tree/clang/filter/more)
 13. [Recover](https://github.com/careychua/CS50x/tree/clang/recover)
 14. Speller
-   * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
-   * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
+    * [Trie](https://github.com/careychua/CS50x/tree/clang/speller/trie)
+    * [Hash](https://github.com/careychua/CS50x/tree/clang/speller/hash)
 
 ---
 
